@@ -1,7 +1,4 @@
 .content-cards {
-  // display: flex;
-  // justify-content: space-around;
-  // flex-direction: column;
 }
 .cards {
   display: grid;
@@ -45,6 +42,10 @@
     flex-direction: column;
     .icons {
       color: rgba(221, 221, 221,0.8);
+    }
+    .icons2 {
+      color: rgb(221, 221, 221);
+      margin-top: 12px;
     }
     .cards-info-sub {
       color: $gray;
