@@ -1,4 +1,4 @@
-<div class="title-content">
+<div class="title-content sticky-top" id="titlecon">
   <div class="title">
     <h1>Antonio Sanchez</h1>
     <p>FULL-STACK DEVELOPER | PROJECT MANAGER | MASTER IN BUSINESS AND ADMINISTRATION</p>
@@ -12,6 +12,7 @@
     <a href="https://www.instagram.com/antoniosancheztrespalacios/" target="_blank" class="social-link"><i class="fab fa-instagram"></i></a>
     <a href="https://github.com/antonioist" target="_blank" class="social-link"><i class="fab fa-github"></i></a>
   </div>
+  <div class="hide-image"></div>
 </div>
 <div class="content-body">
   <div class="title" id="title-about">
@@ -143,3 +144,21 @@
       </div>
     </div>
   </div>
+</div>
+<script>
+  window.onscroll = () => {
+  myFunction()
+  };
+  
+  const navbar = document.querySelector("#titlecon");
+  
+  const sticky = titlecon.offsetTop;
+  
+  myFunction = () => {
+  if (window.pageYOffset >= sticky) {
+    titlecon.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+  }
+</script>
