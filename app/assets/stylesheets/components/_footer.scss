@@ -4,5 +4,11 @@
     color: black;
   }
   .info-contact-me {
+    .fa-envelope {
+      color: black;
+      &:hover {
+        color: rgb(56, 55, 55);
+      }
+    }
   }
 }
