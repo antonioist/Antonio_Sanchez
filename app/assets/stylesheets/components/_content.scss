@@ -6,6 +6,7 @@
   overflow: hidden;
   position: sticky;
   z-index: -9999999999;
+  height: 300px;
   .title {
     text-align: center;
     p {
@@ -27,10 +28,13 @@
     text-align: center;
     background-color: $turhover;
     font-family: 'Lora', serif;
+    font-size: 24px;
   }
   #title-about {
     border-top-left-radius: 16px;
     border-top-right-radius: 16px;
+    font-size: 24px;
+    font-family: 'Lora', serif;
   }
 
 }
@@ -40,11 +44,27 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  .content-body-about-me-photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .content-body-about-me-photo-and-modo {
+      p {
+        text-align: justify;
+        margin: 0 16px;
+        margin-top: 28px;
+      }
+      .avatar-large {
+        margin-left: 16px;
+      }
+    }
+
+  }
   p {
     // color: gray;
     text-align: justify;
     margin: 0 32px;
-    line-height: 32px;
+    line-height: 24px;
   }
 }
 
