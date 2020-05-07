@@ -10,7 +10,7 @@
     text-align: center;
     p {
       font-size: 12px;
-      color: black;
+      color: white;
     }
   }
 }
@@ -25,7 +25,7 @@
   border-top-right-radius: 16px;
   .title {
     text-align: center;
-    background-color: black;
+    background-color: $turhover;
   }
   #title-about {
     border-top-left-radius: 16px;

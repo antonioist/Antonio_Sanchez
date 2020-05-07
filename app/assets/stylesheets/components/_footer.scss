@@ -1,11 +1,11 @@
 .footer {
   text-align: center;
   .title-contact-me {
-    color: black;
+    color: $white;
   }
   .info-contact-me {
     .fa-envelope {
-      color: black;
+      color: $white;
       &:hover {
         color: rgb(56, 55, 55);
       }
