@@ -1,5 +1,12 @@
 .footer {
   text-align: center;
+  .logo-antonio {
+    width: 100px;
+    height: 32px;
+    object-fit: contain;
+    margin: 8px 0;
+
+  }
   .title-contact-me {
     color: $white;
     font-family: 'Lora', serif;
