@@ -1,9 +1,13 @@
 // Import Google fonts
 @import url('https://fonts.googleapis.com/css?family=Nunito:400,700|Work+Sans:400,700&display=swap');
-
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Roboto|Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lora&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Arimo&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Dosis&display=swap');
 // Define fonts for body and headers
-$body-font: "Work Sans", "Helvetica", "sans-serif";
-$headers-font: "Nunito", "Helvetica", "sans-serif";
+$body-font: "Arimo", "sans-serif";
+$headers-font: "Montserrat", "sans-serif";
+
 
 // To use a font file (.woff) uncomment following lines
 // @font-face {
@@ -14,3 +18,8 @@ $headers-font: "Nunito", "Helvetica", "sans-serif";
 //        font-url('FontFile.ttf') format('truetype')
 // }
 // $my-font: "Font Name";
+// font-family: 'Roboto', sans-serif;
+// font-family: 'Roboto Condensed', sans-serif;
+// font-family: 'Lora', serif;
+// font-family: 'Arimo', sans-serif;
+// font-family: 'Dosis', sans-serif;
