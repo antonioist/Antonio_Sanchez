@@ -11,15 +11,17 @@
     ABOUT ME
   </div>
   <div class="content-body-about-me">
-    <div class="content-body-about-me-photo">
-      <div class="content-body-about-me-photo-and-modo">
+    <div class="row content-body-about-me-photo">
+      <div class="content-body-about-me-photo-and-modo col-lg-4">
         <%= cl_image_tag "antonio", class: "avatar-large" %>
         <p>"Building, learning, and improving"</p>
       </div>
-      <p>My name is Antonio Sanchez and I'm from Chile, where I used to work as Project Manager, two years ago while still living in Chile
-        i decided to study an MBA and i got accepted at Doshisha university. While living in Japan I got to know Lewagon Tokyo, and I decided to learn something I've
-        been always apationate about, but never got the time to learn, web development, so i enrolled full time in Lewagon Tokyo and succesfully graduated.
-        I always try to improve myself learning new things, in this moment im refining my web development skills, besides that I enjoy playing games, workout, and wathing movies. </p>
+      <div class="cards-info-antonio col-lg-8">
+        <p>My name is Antonio Sanchez and I'm from Chile, where I used to work as Project Manager, two years ago while still living in Chile
+          i decided to study an MBA and i got accepted at Doshisha university. While living in Japan I got to know Lewagon Tokyo, and I decided to learn something I've
+          been always apationate about, but never got the time to learn, web development, so i enrolled full time in Lewagon Tokyo and succesfully graduated.
+          I always try to improve myself learning new things, in this moment im refining my web development skills, besides that I enjoy playing games, workout, and wathing movies. </p>
+      </div>
     </div>
     <div class="hover">
       <span>Social Media!</span>
@@ -36,7 +38,7 @@
     <div class="cards-outer">
       <div class="cards">
         <div class="cards-photo">
-          <%= cl_image_tag "greek-gods", class: "photo" %>
+          <%= cl_image_tag "greek-gods", class: "photo as-img" %>
         </div>
         <div class="cards-info">
           <h3>Greek Gods</h3>
