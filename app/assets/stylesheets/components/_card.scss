@@ -80,7 +80,7 @@
     grid-template-columns: 1fr;
   }
   .hover {
-
+    width: 50%;
   }
 }
 
@@ -89,12 +89,18 @@
   .cards {
     grid-template-columns: 1fr;
   }
+  .hover {
+    width: 50%;
+  }
 }
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
   .cards {
     grid-template-columns: 1fr;
+  }
+  .hover {
+    width: 50%;
   }
 }
 
@@ -103,12 +109,18 @@
   .cards {
     grid-template-columns: 1fr 1fr;
   }
+  .hover {
+    width: 25%;
+  }
 }
 
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {
   .cards {
     grid-template-columns: 1fr 1fr;
+  }
+  .hover {
+    width: 25%;
   }
 }
 
